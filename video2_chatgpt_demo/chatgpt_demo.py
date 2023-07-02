@@ -5,7 +5,7 @@ import speech_recognition as sr
 import requests
 import json
 
-openai.api_key = "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"
+openai.api_key = os.environ["OPENAI_API_KEY"]
 openweathermap_api_key = os.environ["WEATHER_API_KEY"]
 
 messages = [
