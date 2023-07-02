@@ -9,3 +9,7 @@
 
 ## 影片2: ChatGPT實戰：Python開發解鎖潛力
 在這個影片中，我們將深入探討如何使用 Python 打造強大的 ChatGPT 聊天機器人。從探討 Prompt 在 ChatGPT 中的重要性，到分享創建有效 Prompt 的四個秘訣，再到實際的開發實例，您將學習到如何運用 Python 技巧開發出功能豐富且智能的聊天夥伴。
+
+
+希望這些資訊對您有所幫助！請不要忘記訂閱我的[YouTube 頻道](https://www.youtube.com/channel/UCvUSl4u683zlg_DeA0Atqjw)，以獲得更多有趣的 ChatGPT 實戰教學內容。
+
