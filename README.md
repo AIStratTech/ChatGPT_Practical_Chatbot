@@ -6,6 +6,9 @@
 
 我們非常重視讓技術知識和資源變得可及，因此我們選擇將程式碼直接分享在這裡，以方便您存取和學習。您可以瀏覽我們的程式碼，進行實驗和修改，並將其應用於您自己的項目中。
 
+請記得關注我們的[YouTube 頻道](https://www.youtube.com/channel/UCvUSl4u683zlg_DeA0Atqjw)，以獲取更多與 ChatGPT 相關的實戰教學內容。我們期待與您一同探索 ChatGPT 的潛能，並將其應用於您的項目中！
+
+
 ## 影片1: ChatGPT 101：打造你的AI聊天夥伴
 在這個影片中，我們將帶您深入了解聊天機器人的基本原理和運作方式。從聊天機器人的概念入門，到大型語言模型 GPT-4 的演變，再到 Duolingo 如何創新應用 GPT-4，這個影片將為您打開建構智能聊天夥伴的大門。
 
@@ -14,6 +17,4 @@
 ## 影片2: ChatGPT實戰：Python開發解鎖潛力
 在這個影片中，我們將深入探討如何使用 Python 打造強大的 ChatGPT 聊天機器人。從探討 Prompt 在 ChatGPT 中的重要性，到分享創建有效 Prompt 的四個秘訣，再到實際的開發實例，您將學習到如何運用 Python 技巧開發出功能豐富且智能的聊天夥伴。
 
-
-希望這些資訊對您有所幫助！請不要忘記訂閱我的[YouTube 頻道](https://www.youtube.com/channel/UCvUSl4u683zlg_DeA0Atqjw)，以獲得更多有趣的 ChatGPT 實戰教學內容。
 
