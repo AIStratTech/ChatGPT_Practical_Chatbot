@@ -22,5 +22,10 @@
 
 請在 "video2_chatgpt_demo" 資料夾中參考相關程式碼。
 
+## ChatGPT實戰：Python自製AI教練，省下高額教練費
 
+在本集影片中，我們將展示如何將ChatGPT轉化為你的私人領導力教練。首先，我們將透過Python程式碼和OpenAI API，讓ChatGPT進行角色扮演，接著，我們將介紹如何利用Gradio來增強我們的AI教練，提供更好的用戶體驗。
 
+影片連結：[觀看影片](https://www.youtube.com/channel/UCvUSl4u683zlg_DeA0Atqjw)
+
+請在 "video2_chatgpt_demo" 資料夾中參考相關程式碼。
