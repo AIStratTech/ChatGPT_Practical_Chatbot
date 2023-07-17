@@ -13,7 +13,7 @@
 在執行這些範例程式碼之前，你需要準備以下的項目：
 
 1. Python 3.6或以上的版本。
-2. 安裝所需的Python函式庫：`openai`, `gradio`, `tiktoken`。
+2. 安裝所需的Python函式庫：`openai`, `gradio 3.34.0`, `tiktoken 0.3.0`。
 3. OpenAI API密鑰，這可以從OpenAI官方網站申請得到。
 
 請記得在運行程式碼之前設定你的OpenAI API密鑰，並確保你已經安裝了所有必須的函式庫。

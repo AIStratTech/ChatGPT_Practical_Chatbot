@@ -2,6 +2,7 @@ import openai
 import gradio as gr
 import os
 
+print(gr.__version__)
 openai.api_key = os.environ["OPENAI_API_KEY"]
 
 messages = [
@@ -17,7 +18,7 @@ messages = [
 with gr.Blocks() as demo:
     chatbot = gr.Chatbot()
     msg = gr.Textbox()
-    clear = gr.ClearButton([msg, chatbot])
+    clear = gr.UploadButton([msg, chatbot])
 
     def respond(input, chat_history):
         messages.append({"role": "user", "content": input})
