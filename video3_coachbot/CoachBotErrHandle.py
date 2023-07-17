@@ -1,7 +1,6 @@
 import openai
 import gradio as gr
 import tiktoken
-import traceback
 import os
 
 
@@ -10,13 +9,15 @@ MAX_TOKENS = 4000
 
 
 class ChatBot:
-    def __init__(self, system_role):
+    def __init__(self, model_name, system_role):
         self.messages = [
             {"role": "system", "content": system_role},
         ]
+        # Set the model name.
+        self.model_name = model_name
 
     def count_tokens(self):
-        encoding = tiktoken.encoding_for_model("gpt-3.5-turbo")
+        encoding = tiktoken.encoding_for_model(self.model_name)
         num_tokens = 0
         for message in self.messages:
             num_tokens += (
@@ -47,7 +48,7 @@ class ChatBot:
                 else:
                     try:
                         chat = openai.ChatCompletion.create(
-                            model="gpt-3.5-turbo", messages=self.messages
+                            model=self.model_name, messages=self.messages
                         )
                         reply = chat.choices[0].message["content"]
                     except openai.OpenAIError as e:
@@ -62,4 +63,9 @@ class ChatBot:
         demo.launch()
 
 
-ChatBot("You are a leadership coach using the ORID framework.").launch()
+ChatBot(
+    "gpt-3.5-turbo",
+    "You are a leadership coach using the ORID framework.\
+            Instructions: Only answer questions related to leadership. \
+            Answer the question as truthfully as possible, and if you're unsure of the answer, say \"Sorry, I don't know\"",
+).launch()

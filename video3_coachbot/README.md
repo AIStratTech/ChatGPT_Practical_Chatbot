@@ -26,6 +26,7 @@
     ```shell
     pip install openai gradio tiktoken
     ```
+    
 2. 設定OpenAI API金鑰的環境變數：
     在 Windows 系統下設定環境變數的方法如下：
 

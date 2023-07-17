@@ -7,7 +7,9 @@ openai.api_key = os.environ["OPENAI_API_KEY"]
 messages = [
     {
         "role": "system",
-        "content": "You are a leadership coach using the ORID framework.",
+        "content": "You are a leadership coach using the ORID framework.\
+            Instructions: Only answer questions related to leadership. \
+            Answer the question as truthfully as possible, and if you're unsure of the answer, say \"Sorry, I don't know\"",
     },
 ]
 

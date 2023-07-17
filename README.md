@@ -12,13 +12,13 @@
 ## 影片1: ChatGPT 101：打造你的AI聊天夥伴
 在這個影片中，我們將帶您深入了解聊天機器人的基本原理和運作方式。從聊天機器人的概念入門，到大型語言模型 GPT-4 的演變，再到 Duolingo 如何創新應用 GPT-4，這個影片將為您打開建構智能聊天夥伴的大門。
 
-影片連結：[觀看影片](https://www.youtube.com/channel/UCvUSl4u683zlg_DeA0Atqjw)
+影片連結：[觀看影片](https://youtu.be/6gqOc2q7-Gs)
 
 ## 影片2: ChatGPT實戰：Python開發解鎖潛力
 
 在這個影片中，我們將深入探討如何使用 Python 打造強大的 ChatGPT 聊天機器人。從探討 Prompt 在 ChatGPT 中的重要性，到分享創建有效 Prompt 的四個秘訣，再到實際的開發實例，您將學習到如何運用 Python 技巧開發出功能豐富且智能的聊天夥伴。
 
-影片連結：[觀看影片](https://www.youtube.com/channel/UCvUSl4u683zlg_DeA0Atqjw)
+影片連結：[觀看影片](https://youtu.be/ycWbRpz9EGk)
 
 請在 "video2_chatgpt_demo" 資料夾中參考相關程式碼。
 
@@ -26,6 +26,6 @@
 
 在本集影片中，我們將展示如何將ChatGPT轉化為你的私人領導力教練。首先，我們將透過Python程式碼和OpenAI API，讓ChatGPT進行角色扮演，接著，我們將介紹如何利用Gradio來增強我們的AI教練，提供更好的用戶體驗。
 
-影片連結：[觀看影片](https://www.youtube.com/channel/UCvUSl4u683zlg_DeA0Atqjw)
+影片連結：[觀看影片](https://youtu.be/dMq-Qc8K55o)
 
-請在 "video2_chatgpt_demo" 資料夾中參考相關程式碼。
+請在 "video3_coachbot" 資料夾中參考相關程式碼。
